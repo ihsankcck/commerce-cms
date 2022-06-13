@@ -1,12 +1,12 @@
 {
   "dependencies": {
     "@strapi/plugin-graphql": "^4.0.0",
+    "@strapi/plugin-i18n": "4.1.12",
+    "@strapi/plugin-users-permissions": "4.1.12",
+    "@strapi/strapi": "4.1.12",
     "lodash.set": "^4.3.2",
     "mime-types": "^2.1.27",
-    "@strapi/strapi": "4.1.12",
-    "@strapi/plugin-users-permissions": "4.1.12",
-    "@strapi/plugin-i18n": "4.1.12",
-    "better-sqlite3": "7.4.6"
+    "mysql": "^2.18.1"
   },
   "name": "cms",
   "private": true,
@@ -19,7 +19,6 @@
     "build": "NODE_ENV=production strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "author": {
     "name": "A Strapi developer"
   },
